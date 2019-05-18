@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Fiks Reduxen din med Redux Starter Kit</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+                <section data-markdown>
+                    ## Redux
+                </section>
+                <section data-markdown>
+                    ## ❤️ / 💔
+
+                    Note:
+                    - Anstrengt forhold. Elsk/hat
+                    - Mange ting jeg elsker, noen ting som klør litt
+                    - Den følelsen der noe ikke stemmer, klør litt, ikke føles helt riktig
+                </section>
+                <section data-markdown>
+                    ## 💔
+
+                    Note:
+                    - Vanskelig, knotete oppsett.
+                    - Løse koblinger: vanskelig å følge flyten i kodebasen
+                    - Unopinionated: legger veldig få føringer – vanligvis bra, men finne opp hjulet på nytt
+                </section>
+                <section>
+                    <img src="/assets/slack.png" />
+                </section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			Reveal.initialize({
+                controls: false,
+                progress: false,
+                history: true,
+                transition: 'fade',
+                showSlideNumber: 'speaker',
+                slideNumber: 'c/t',
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
