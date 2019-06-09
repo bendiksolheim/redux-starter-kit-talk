@@ -83,6 +83,17 @@ body {
   text-shadow: none;
 }
 
+h2.redux {
+  align-items: center;
+  color: #764abc;
+  display: flex;
+  justify-content: center;
+}
+
+.redux img {
+  width: 2em;
+}
+
 /*********************************************
  * OTHER
  *********************************************/
